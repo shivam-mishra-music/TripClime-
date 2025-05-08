@@ -9,7 +9,7 @@ export default function Navbar() {
         Check Weather
       </h1>
 
-      <ul className="flex gap-4">
+      <ul className="flex gap-4 md:flex hidden">
         <li className="group relative">
           <Link
             href="/"
