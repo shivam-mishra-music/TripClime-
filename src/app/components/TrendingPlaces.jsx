@@ -2,17 +2,17 @@ import React from "react";
 import PlaceCard from "./PlaceCard";
 
 const TrendingPlaces = () => {
-  // Sample static data
+  
   const indiaPlaces = [
-    { name: "Manali", image: "/manali.jpg", country: "India" },
-    { name: "Jaipur", image: "/jaipur.jpg", country: "India" },
-    { name: "Goa", image: "/goa.jpg", country: "India" },
+    { name: "Manali", image: "./manali.jpg", country: "India" },
+    { name: "Jaipur", image: "./jaipur.jpg", country: "India" },
+    { name: "Goa", image: "./goa.jpg", country: "India" },
   ];
 
   const foreignPlaces = [
-    { name: "Paris", image: "/paris.jpg", country: "France" },
-    { name: "Tokyo", image: "/tokyo.jpg", country: "Japan" },
-    { name: "Bali", image: "/bali.jpg", country: "Indonesia" },
+    { name: "Paris", image: "./paris.jpg", country: "France" },
+    { name: "Tokyo", image: "./tokyo.jpg", country: "Japan" },
+    { name: "Bali", image: "./bali.jpg", country: "Indonesia" },
   ];
 
   return (
