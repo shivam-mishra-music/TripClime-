@@ -11,7 +11,7 @@ const PlaceCard = ({ place }) => {
       <div className="p-4">
         <h4 className="text-xl font-bold">{place.name}</h4>
         <p className="text-gray-500">{place.country}</p>
-        {/* Future: Add button to show weather here */}
+        
       </div>
     </div>
   );
