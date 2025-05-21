@@ -2,9 +2,9 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-[90vh] w-full overflow-hidden">
+    <div className="relative h-[90vh] w-full overflow-hidden ">
       <img
-        src="./Travel2.gif"
+        src="../../Travel2.gif"
         alt="Travel background"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
