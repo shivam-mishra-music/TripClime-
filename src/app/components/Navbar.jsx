@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md px-6 py-4 flex justify-between items-center font-poppins">
       <h1 className="text-2xl font-bold text-blue-600 flex items-center gap-2">
         <CloudSun className="w-6 h-6 text-yellow-500" />
-        Check Weather
+        TripClime
       </h1>
 
       <ul className="flex gap-4 md:flex hidden">

@@ -23,7 +23,8 @@ export default function WeatherPage() {
 
     setLoading(true);
     try {
-      const apiKey = '';
+      const apiKey = 'ef61d4ba3aaa35047b28f9b316bcc16f';
+      
       const { data } = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(
           query

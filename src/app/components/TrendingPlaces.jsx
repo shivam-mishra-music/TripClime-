@@ -17,7 +17,7 @@ const TrendingPlaces = ({ onPlaceClick = () => {} }) => {
   ];
 
   return (
-    <section className="py-12 px-4 md:px-8">
+    <section className="py-12 px-4 md:px-8 " id="trending">
       <h2 className="text-3xl font-bold text-center mb-8">Trending Places</h2>
 
       

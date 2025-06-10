@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -17,12 +18,16 @@ const HeroSection = () => {
           “Travel far enough, you meet yourself.”
         </p>
         <div className="space-x-4">
+          <Link href="/weather">
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition font-semibold">
             Check Weather
           </button>
+          </Link>
+          <a href="#trending">
           <button className="bg-white text-blue-600 px-6 py-3 rounded-lg hover:bg-gray-100 transition font-semibold">
             Explore
           </button>
+          </a>
         </div>
       </div>
     </div>
