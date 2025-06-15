@@ -1,5 +1,10 @@
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
 export default function HelpContact() {
   return (
+    <>
+    <Navbar />
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold text-blue-600 mb-10 text-center">Help & Contact</h1>
@@ -61,5 +66,7 @@ export default function HelpContact() {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 }

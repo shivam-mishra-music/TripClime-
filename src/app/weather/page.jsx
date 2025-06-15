@@ -16,7 +16,7 @@ export default function WeatherPage() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  /** Fetch weather by city name */
+  // weather fetching by name
   const getWeather = async (city) => {
     const query = city?.trim() || location.trim();
     if (!query) return;
@@ -31,7 +31,7 @@ export default function WeatherPage() {
         )}&units=metric&appid=${apiKey}`
       );
       setWeather(data);
-      setLocation(""); // clear input after success (optional)
+      setLocation(""); 
     } catch (err) {
       console.error(err.response?.data || err.message);
       alert(err.response?.data?.message || "Location not found!");
@@ -62,10 +62,9 @@ export default function WeatherPage() {
         </button>
       </div>
 
-      {/* Loading */}
       {loading && <p className="text-center text-gray-500">Loading...</p>}
 
-      {/* Weather result */}
+      
       {weather && (
         <div className="bg-white rounded-xl shadow-md p-6 mt-4">
           <h2 className="text-2xl font-bold mb-4 text-center">

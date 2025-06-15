@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         
         <div>
-          <h2 className="text-2xl font-bold">Travel Explorer</h2>
+          <h2 className="text-2xl font-bold">Tripe Clime</h2>
           <p className="text-sm text-gray-400 mt-2">Explore. Experience. Discover.</p>
         </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} Travel Explorer. All rights reserved.
+        © {new Date().getFullYear()} Trip Clime. All rights reserved.
       </div>
     </footer>
   );
