@@ -1,12 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
-import {
-  FaSearchLocation,
-  FaTemperatureHigh,
-  FaCloud,
-  FaWind,
-} from "react-icons/fa";
+import {FaSearchLocation, FaTemperatureHigh, FaCloud,FaWind,} from "react-icons/fa";
 import TrendingPlaces from "../components/TrendingPlaces";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -16,7 +11,6 @@ export default function WeatherPage() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // weather fetching by name
   const getWeather = async (city) => {
     const query = city?.trim() || location.trim();
     if (!query) return;
@@ -45,7 +39,6 @@ export default function WeatherPage() {
     <div className="max-w-3xl mx-auto px-6 py-12 text-gray-800">
       <h1 className="text-3xl font-bold mb-6 text-center">Check Weather</h1>
 
-      {/* Search bar */}
       <div className="flex items-center gap-4 mb-6">
         <input
           type="text"
